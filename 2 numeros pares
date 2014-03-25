@@ -1,0 +1,31 @@
+// ejerciciodel examen.cpp : Defines the entry point for the console application.
+//Nombre:javier Cuellar
+//Fecha:25/03/2014
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+    using namespace std; 
+    void main()
+
+{
+	int num1 ,num2,res;
+	cout<<"considerar 2 num silos2 son pares se sumen caso contrario se calcule el producto";
+	cout<<"introduzca num1:";
+		cin>>num1;
+	cout<<"introduzca num2:";
+		cin>>num2;
+if ((num1%2==0) && (num2%2==0))
+        res=num1+num2;
+        
+else
+       res=num1*num2;
+    
+
+       cout<<res;
+
+getch();
+	
+}
+
