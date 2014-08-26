@@ -1,0 +1,14 @@
+// kfghsdfi.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+
+int main (void)
+{float a,b,h;
+printf("digite la base y altura: ");
+scanf("%f%f",&b,&h);
+a  = (b*h)/2;
+printf("\n -->El area es:  %f  \n",a);
+	return 0;
+}
+
