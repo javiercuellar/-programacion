@@ -1,0 +1,15 @@
+Enter file contents here// kfghsdfi.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+
+int main (void)
+{float a,r,Pi;
+Pi=3.1416;
+printf("digite el radio: ");
+scanf("%f",&r);
+a  = Pi*(r*r);
+printf("\n -->El area es:  %f  \n",a);
+	return 0;
+}
+
