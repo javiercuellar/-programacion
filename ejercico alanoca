@@ -1,0 +1,19 @@
+// prog04.cpp : Defines the entry point for the console application.
+// autor:javier cuellar
+// fecha: 16-sep-14
+// objetivo:generar los numeros enteros 1,2,3, hasta n.
+
+#include "stdafx.h"
+
+int main(void)
+{int n,i;
+printf("\n Digite n:");
+scanf("%d", &n);
+i=0;
+while(i<n)
+{i=i+1;
+printf("\n %d", i);
+}
+printf("\n");
+	return 0;
+}
