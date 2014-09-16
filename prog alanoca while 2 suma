@@ -1,0 +1,23 @@
+// prog04.cpp : Defines the entry point for the console application.
+// autor:javier cuellar
+// fecha: 16-sep-14
+
+
+#include "stdafx.h"
+
+int main(void)
+{int n,i,s;
+printf("\n Digite n:");
+scanf("%d", &n);
+s=0;
+i=0;
+while(i<n)
+{i=i+1;
+s=s+i;
+}
+printf("\n la suma es :%d", s);
+
+printf("\n");
+	return 0;
+}
+
